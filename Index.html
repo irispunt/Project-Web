@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <title>Verhalen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Styles/Styles.css" type="text/css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <img src="Image/logo.svg" alt="logo" />
+        <!--
+        <nav>
+            <ul class="boven">
+                <li><a href="Index.html">Verhalen</a></li>
+                <li><a href="favorieten.html">Favorieten</a></li>
+                <li><a href="Download.html">Gedownload</a></li>
+            </ul>
+            <ul class="onder">
+                <li><a href="...">over ons</a></li>
+                <li><a href="....html">vragen</a></li>
+                <li><a href="....html">profiel</a></li>
+                <li><a href="....html">inloggen</a></li>
+            </ul>
+        </nav>
+        -->
+    </header>
+    <!-- EINDE HEADER -->
+
+    <!-- HEADER FOTO -->
+    <section class="headerslider">
+        <h1>Anders dan normaal?</h1>
+        <a href="Index.html">Verhalen</a>
+    </section>
+
+    <!-- EINDE HEADER FOTO -->
+
+    <!-- FILTER & SORTEREN -->
+    <section>
+        <div class="pc-tab">
+            <input checked="checked" id="tab1" type="radio" name="pct" />
+            <input id="tab2" type="radio" name="pct" />
+            <nav>
+                <ul>
+                    <li class="tab1">
+                        <label for="tab1">Filteren</label>
+                    </li>
+                    <li class="tab2">
+                        <label for="tab2">Sorteren</label>
+                    </li>
+                </ul>
+            </nav>
+            <section>
+                <div class="tab1">
+                    <form>
+                        <h2>Sorteer op</h2>
+                        <input type="checkbox" /> Alleen de ongelezen verhalen tonen
+                        <br /> <br />
+
+                        <Section class="drop">
+                            <ul>
+                                <li class="sorteer">
+                                    <input type="checkbox" id="sorteer" name="opinie" value="Opinie">
+                                    <label class="sorteer" for="sorteer">Kies sorteer</label>
+                                    <ul class="hidesorteer">
+                                        <li>
+                                            <input type="checkbox" id="populairiteit" name="populairiteit" value="Populairiteit">
+                                            <label for="populairiteit">Populairiteit</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="alfabetisch" name="alfabetisch" value="Alfabetisch">
+                                            <label for="alfabetisch">Alfabetisch</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="aanbevolen" name="aanbevolen" value="Aanbevolen">
+                                            <label for="aanbevolen">Aanbevolen</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="nieuw" name="nieuw" value="Nieuw">
+                                            <label for="nieuw">Nieuw</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="oud" name="oud" value="Oud">
+                                            <label for="oud">Oud</label>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </Section>
+                    </form>
+
+                </div>
+                <div class="tab2">
+                    <form>
+                        <h2>Filter op</h2>
+                        <Section class="drop">
+                            <ul>
+                                <li class="sorteer">
+                                    <input type="checkbox" id="sorteer2" name="opinie" value="Opinie">
+                                    <label class="sorteer" for="sorteer2">Kies genre</label>
+                                    <ul class="hidesorteer">
+                                        <li>
+                                            <input type="checkbox" id="Spannend" name="Spannend" value="Spannend">
+                                            <label for="Spannend">Spannend</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="Roman" name="alfabetisch" value="Roman">
+                                            <label for="Roman">Roman</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="Humor" name="Humor" value="Humor">
+                                            <label for="Humor">Humor</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="Horror" name="Horror" value="Horror">
+                                            <label for="Horror">Horror</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="Dieren" name="Dieren" value="Dieren">
+                                            <label for="Dieren">Dieren</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="Sprookjes" name="Sprookjes" value="Sprookjes">
+                                            <label for="Sprookjes">Sprookjes</label>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </Section>
+                        <h4>Emoties</h4>
+                        <ol class="tags">
+                            <li><a href="#" title="Blij">Blij</a></li>
+                            <li><a href="#" title="Verdrietig">Verdrietig</a></li>
+                            <li><a href="#" title="Verliefd">Verliefd</a></li>
+                            <li><a href="#" title="Boos">Boos</a></li>
+                        </ol>
+
+                    </form>
+
+                </div>
+            </section>
+        </div>
+    </section>
+    <!-- EINDE FILTER & SORTEREN -->
+
+    <!-- VERHALEN -->
+
+    <h3>Verhalen</h3>
+
+
+    <section class="verhaal">
+        <img src="Image/poepen.jpg" alt="poepen">
+        <h4>Poepen</h4>
+        <p>Benieuwd wat ik gemaakt heb? Bekijk mijn portfolio voor meer! ik gemaakt heb? Bekijk mijn portfolio voor meer! ik gemaakt heb? Bekijk mijn portfolio voor meer! </p>
+        <a href="Index.html">Verhalen</a>
+    </section>
+
+    <section class="verhaal">
+        <img src="Image/alzheimer.jpeg" alt="slideshow">
+        <h4>Alzeimer</h4>
+        <p>Benieuwd wat ik gemaakt heb? Bekijk mijn portfolio voor meer!</p>
+        <a href="Index.html">Verhalen</a>
+    </section>
+
+    <section class="verhaal">
+        <img src="Image/gefrusteerd.jpeg" alt="slideshow">
+        <h4>Gefrusteerd</h4>
+        <p>Benieuwd wat ik gemaakt heb? Bekijk mijn portfolio voor meer!</p>
+        <a href="Index.html">Verhalen</a>
+    </section>
+
+    <!-- EINDE VERHALEN -->
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>2018 &copy; Made by Iris de Graaf</p>
+    </footer>
+    <!-- EINDE FOOTER -->
+
+</body>
+
+</html>

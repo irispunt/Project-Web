@@ -1,0 +1,365 @@
+body {
+    font-family: 'arial', sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+
+h2 {
+    color: white;
+}
+
+header {
+    background-color: rgb(6, 24, 61);
+    width: 100%;
+    display: flex;
+}
+
+header img {
+    width: 127px;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+.headerslider {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    background-image: url("../image/above-aerial-aerial-view-991012.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 8px solid rgb(36, 181, 201);
+    margin-bottom: 28px;
+
+
+}
+
+.headerslider h1 {
+    margin: 0;
+    color: white;
+
+    top: 10%;
+    width: 100%;
+    padding: 20px;
+    font-size: 2em;
+
+
+    max-width: 300px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 6px;
+    line-height: 0.95;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+}
+
+h3 {
+
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+
+h3::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 60px;
+    background-color: rgb(124, 211, 223);
+    margin: 12px auto 0px;
+}
+
+a {
+    font-size: 16px;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(251, 221, 15);
+    box-shadow: rgb(210, 184, 43) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
+    color: rgb(85, 86, 90);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border-style: none;
+    padding: 8px;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+
+input[type="submit"] {
+    font-size: 16px;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(251, 221, 15);
+    box-shadow: rgb(210, 184, 43) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
+    color: rgb(85, 86, 90);
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 4px;
+    border-style: none;
+    padding: 10px;
+    text-decoration: none;
+}
+
+input[type="radio"] {
+    color: white;
+}
+
+
+.verhaal {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 0px;
+    width: 300px;
+    position: relative;
+    height: 100%;
+    border-width: 0px 1px 1px;
+    border-style: solid solid solid;
+    border-color: rgb(232, 232, 232) rgb(232, 232, 232) rgb(232, 232, 232);
+    border-top: 0px;
+    background: rgb(255, 255, 255);
+    border-radius: 14px 14px 8px 8px;
+    border-radius: 4px;
+    border-style: solid;
+    margin: 30px auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.verhaal a {
+    font-weight: 700;
+    background-color: rgb(255, 230, 0);
+    box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
+    background-clip: padding-box;
+    color: rgb(85, 86, 90);
+    display: block;
+    height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    bottom: 20px;
+    display: flex;
+    left: 14px;
+    border-radius: 4px;
+    padding: 5px;
+    text-decoration: none;
+
+    justify-content: center;
+    margin: 10px 10px 20px 10px;
+}
+
+.verhaal img {
+    width: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.verhaal p {
+    font-size: 13px;
+    padding: 0px 10px 20px 10px;
+}
+
+.verhaal h4 {
+    padding: 0px 0px 0px 10px;
+}
+
+/*
+nav {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 270px;
+    height: 270px;
+    background-color: rgb(6, 24, 61);
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: rgb(6, 24, 61);
+    margin: 0px 0px 0px 0px;
+}
+
+nav li a {
+    flex-direction: column;
+    display: inline-block;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    line-height: 2.2rem;
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-bottom: 2px solid rgb(6, 24, 61);
+}
+/* Standaard dingen */
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+
+}
+
+.pc-tab > input,
+.pc-tab section > div {
+    display: none;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tab1,
+.tab2 {
+    float: left;
+    padding: 15px 25px;
+    color: black;
+
+}
+
+h2 {
+    margin: 10px 0px 10px 0px;
+}
+
+
+.tags a,
+button {
+    font-size: 16px;
+    background-color: rgb(251, 221, 15);
+    box-shadow: rgb(210, 184, 43) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
+    color: rgb(85, 86, 90);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border-style: none;
+    padding: 8px;
+    text-decoration: none;
+    line-height: 24px;
+    display: flex;
+}
+
+li {
+    margin: 0px 0px 0px 0px;
+    padding: 3px;
+    border: 0;
+    font-size: 100%;
+    list-style-type: none;
+}
+
+/* bovenste tabs */
+#tab1:checked ~ nav .tab1,
+#tab2:checked ~ nav .tab2 {
+    background-color: rgb(6, 24, 61);
+    color: white;
+    position: relative;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#tab1:hover ~ nav .tab1,
+#tab2:hover ~ nav .tab2 {
+    background-color: lightgrey;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* onderste vakjes */
+
+#tab1:checked ~ section .tab1 {
+    display: block;
+    clear: both;
+    width: 100%;
+    background: rgb(6, 24, 61);
+    color: white;
+    border-radius: 0px 8px 8px 8px;
+    margin-bottom: 30px;
+}
+
+#tab2:checked ~ section .tab2 {
+    display: block;
+    clear: both;
+    width: 100%;
+    background: rgb(6, 24, 61);
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.tags {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* sorteer box */
+.sorteer input[type=checkbox] {
+    display: none;
+}
+
+.sorteer ul {
+    display: none;
+}
+
+.sorteer input[type=checkbox]:checked ~ ul {
+    display: block;
+}
+
+.drop {
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(85, 86, 90);
+    position: relative;
+    text-align: left;
+    align-items: center;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 10px;
+    margin: 0px 0px 5px;
+    width: 100%;
+}
+
+.hidesorteer label:before {
+    content: '';
+    width: 1.25rem;
+    height: 1.25rem;
+    cursor: pointer;
+    vertical-align: middle;
+    display: inline-block;
+    background: transparent;
+    border: 1px solid #b5b5bc;
+    border-radius: 1px;
+    margin-right: 0.625rem;
+}
+
+.hidesorteer label:after {
+    content: '';
+    width: 1.25rem;
+    height: .7rem;
+    position: absolute;
+    left: .6rem;
+    border: 4px solid black;
+    border-top: none;
+    border-right: none;
+    opacity: 0;
+    transform: rotate(-25deg) skewY(-23deg);
+}
+
+
+.hidesorteer input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+}
